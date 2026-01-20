@@ -46,7 +46,7 @@
                     <td class="px-6 py-4 text-right text-sm font-medium">
                         <div class="flex justify-end gap-3">
                             <!-- Edit Button (Icon with Tooltip effect) -->
-                            <a href="#"
+                            <a href="{{ $user->id }}"
                                 class="p-2 text-indigo-600 bg-indigo-50 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors shadow-sm"
                                 title="Edit User">
                                 <svg xmlns="http://www.w3.org" class="h-5 w-5" fill="none" viewBox="0 0 24 24"

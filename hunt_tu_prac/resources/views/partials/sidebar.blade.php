@@ -3,6 +3,7 @@
     <nav class="flex-1 p-4 space-y-2">
         <a href="#" class="block py-2.5 px-4 rounded bg-blue-600">Dashboard</a>
         <a href="{{ route('users.index') }}" class="block py-2.5 px-4 rounded hover:bg-slate-800 transition">Users</a>
+        <a href="{{ route('bills.index') }}" class="block py-2.5 px-4 rounded hover:bg-slate-800 transition">Bills</a>
         <a href="#" class="block py-2.5 px-4 rounded hover:bg-slate-800 transition">Settings</a>
     </nav>
 </aside>
