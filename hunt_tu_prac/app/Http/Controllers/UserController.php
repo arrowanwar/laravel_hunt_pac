@@ -13,4 +13,13 @@ class UserController extends Controller
         // dd($users);
         return view('users.index', compact('users'));
     }
+    public function bills()
+    {
+        // dd($bills);
+        return view('bill.index');
+    }
+    public function create()
+    {
+        return view('bill.create');
+    }
 }
